@@ -58,10 +58,10 @@ The following steps were followed during the development of the project:
 5. Train-Test Split
 6. Feature Scaling
 7. Model Training and Evaluation
-   ○ Logistic Regression
-   ○ Support Vector Classifier (SVC)
-   ○ Decision Tree Classifier
-   ○ Random Forest Classifier
+ ○ Logistic Regression
+ ○ Support Vector Classifier (SVC)
+ ○ Decision Tree Classifier
+ ○ Random Forest Classifier
 8. Model Comparison
 9. Final Model Selection
 
