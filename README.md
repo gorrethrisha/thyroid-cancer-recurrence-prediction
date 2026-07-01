@@ -1,4 +1,4 @@
-# Thyroid Cancer Recurrence Detection
+# Thyroid Cancer Recurrence Prediction
 
 ## Project Overview
 
