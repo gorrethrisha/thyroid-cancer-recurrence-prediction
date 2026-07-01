@@ -39,13 +39,15 @@ The primary objective of this project is to develop a machine learning model tha
 
 ## Tech Stack
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Streamlit
+- Joblib
+- Jupyter Notebook
 
 ## Methodology
 
@@ -57,7 +59,7 @@ The following steps were followed during the development of the project:
 4. Feature and Target Separation
 5. Train-Test Split
 6. Feature Scaling
-7. Model Training and Evaluation6. Model Training and Evaluation
+7. Model Training and Evaluation
    - Logistic Regression
    - Support Vector Classifier (SVC)
    - Decision Tree Classifier
@@ -67,12 +69,12 @@ The following steps were followed during the development of the project:
 
 ## Model Performance
 
-| Model                           | Accuracy | Precision | Recall   | F1 Score |
-| ------------------------------- | -------- | --------- | -------- | -------- |
-| Logistic Regression             | 0.849315 | 0.789474  | 0.681818 | 0.731707 |
-| Support Vector Classifier (SVC) | 0.904110 | 0.857143  | 0.818182 | 0.837209 |
-| Decision Tree Classifier        | 0.917808 | 0.807692  | 0.954545 | 0.875000 |
-| Random Forest Classifier        | 0.958904 | 0.913043  | 0.954545 | 0.933333 |
+| Model | Accuracy | Precision | Recall | F1 Score |
+|-------|----------|-----------|--------|----------|
+| Logistic Regression | 84.93% | 78.95% | 68.18% | 73.17% |
+| Support Vector Classifier (SVC) | 90.41% | 85.71% | 81.82% | 83.72% |
+| Decision Tree Classifier | 91.78% | 80.77% | 95.45% | 87.50% |
+| Random Forest Classifier | 95.89% | 91.30% | 95.45% | 93.33% |
 
 ## Final Model Selection
 
@@ -81,6 +83,20 @@ Logistic Regression, Support Vector Classifier (SVC), Decision Tree, and Random 
 Among all the models, the Random Forest classifier achieved the highest accuracy, precision, and F1-score while maintaining an excellent recall value. The model correctly identified almost all recurrence cases and produced very few false predictions.
 
 Since correctly predicting thyroid cancer recurrence is important in medical applications, **the Random Forest classifier was selected as the final model for Thyroid Cancer Recurrence Detection.**
+
+## Streamlit Web Application
+
+A Streamlit-based web application was developed to provide an interactive interface for Thyroid Cancer Recurrence Prediction.
+
+The application allows users to enter patient clinical and pathological information and instantly predicts whether thyroid cancer recurrence is likely to occur using the trained machine learning model.
+
+## Project Files
+
+- `Thyroid Cancer Recurrence Prediction.ipynb` - Complete notebook containing data preprocessing, model training, and evaluation.
+- `app.py` - Streamlit web application for thyroid cancer recurrence prediction.
+- `thyroid_recurrence_model.pkl` - Saved trained Random Forest model.
+- `requirements.txt` - Required Python packages for running the application and reproducing the project environment.
+- `README.md` - Project documentation.
 
 ## Conclusion
 
